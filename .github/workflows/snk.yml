@@ -7,7 +7,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk/svg-only@v3.2.0
         with:
           github_user_name: 603185423
           outputs: |
